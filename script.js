@@ -1,5 +1,7 @@
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
+const li = document.createElement("li");
+
 
 function addTask(){
     const task = inputBox.value.trim();
